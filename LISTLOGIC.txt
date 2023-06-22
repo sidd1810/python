@@ -1,0 +1,130 @@
+LIST:
+1)(multiple varieble save krva ,ate thy chee 
+2)list hamesha [] square braket ma use thy 
+3)list ma aaaapde order change karavi sakiye pn item change na kari sakya
+4)list changeable chhe te ma add,remove,badhu kari sakiye apde
+5)list ma duplicate value pn print thy che
+
+LIST NI LENTH MAPVA MATE P = LEN(LIST NU NAAM )
+ACCESS LIST:
+1:  JE PN ITEM PRINT KARVANI HOY (THISLIST(ITEM NUMBER))
+2:NEGATIVE INDEX
+-1=CHEELI ITEM 
+-2=CHJEELE THI BIJJI ITEM ACCES THY 
+3: RANGE INDEX 
+THISLIST[2:5]
+list ma 2 thi laine 5 sudhi ma
+2 include thse pn 5 iclude nai thy 
+te 
+4:thislist[:4]=jaate j 0 initialize thai jaay ,0 thi print thy 
+5:thislist[2:]=jaate j end intialize thai jaay ,last item sudhi print thy
+#Negative indexing means starting from the end of the list.
+thislist[-4:-1]
+#This example returns the items from index -4 (included) to index -1 (excluded)
+rule is pehli value ne iclude and last value ne nathi ganvani ,aena pehla ni value ganvani 
+#Remember that the last item has the index -1
+
+change:
+
+4:change the item in list 
+thislist[item number]=" item je change karavavani hoy"
+this7list[1]="blck bir"
+
+5:chane by range
+thislist[1:3]=["bird","animal"]
+1 and 2 ma a value change thai jse
+
+range vadhi jase jo list ni range item add karta vadhe to 
+
+*insert item 
+inset atle item add karvani pn koi ne change karya vagr 
+thislist.insert(2,"kaka)
+2 number na elemnt agal kaka item ayi jase
+
+
+*add item 
+thislist.append("orange")
+list ma cheele :orange item add thai jase 
+append ma last ma j add thy item 
+
+*extend
+thislist = ["apple", "banana", "cherry"]
+tropical = ["mango", "pineapple", "papaya"]
+
+thislist.extend(tropical)
+ extend to use 2 list merge karva thy xchee 
+
+
+*remove 
+thislos.remove("banana")
+list masthi banaan remove thai jase
+
+*remove specified index
+thislis.pop(1)
+ element 1 aae remove thia jsse
+thislist.pop()
+khali hoy to last item remove thai jaay chee
+
+*del 
+del thislist[0]
+0 number ni item delete thai jase 
+del thislist 
+puri list j delete thai jase
+
+*clear
+ thisloist.clear()
+puri list to clear thai jase pn list rese 
+ 
+*loop list
+
+for i in range(len(thislit)):
+print(thislist[i])
+
+this list ma je item hase ae print 
+
+*thislist = ["apple", "banana", "cherry"]
+[print(x) for x in thislist]
+list compreshension no use karine ne shortest loop ma list 
+na element print kari sakay chee 
+
+*list comprehension 
+ama sauthi pela je list ma add karvavu hoy ae list banai devani 
+mylist=[]
+
+*sort listing 
+list ne chadta kram ma kram ma godhvavani and aeam ascending order rakhvanu 
+thislist=thislist.sort()
+
+*revevrse sorting 
+thislidt.sort(reverse=true)
+a ama list utarta kram ma avse
+
+capital lettere pela store thy chee..lower na 
+and capital ne bi sarkhu rakjva mate 
+thislist.sort(key = str.lower)
+ 
+*copy list 
+ mylist   =thislist.copy()
+
+*join 
+list3=list1+list2
+banee add thai ne output mle chee
+for x in list 2
+list1.append(x)
+print(list1)
+
+append()	Adds an element at the end of the list
+clear()	Removes all the elements from the list
+copy()	Returns a copy of the list
+count()	Returns the number of elements with the specified value
+extend()	Add the elements of a list (or any iterable), to the end of the current list
+index()	Returns the index of the first element with the specified value
+insert()	Adds an element at the specified position
+pop()	Removes the element at the specified position
+remove()	Removes the item with the specified value
+reverse()	Reverses the order of the list
+sort()	Sorts the list
+
+*
+
+

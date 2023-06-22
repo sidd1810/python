@@ -1,0 +1,18 @@
+dict
+copy mate copy use thy
+pachi jo 2 karta vadhare child yaa biju gme te hoy toaene printkaravav 
+je chile select karvo hoiy ae and je key levanai hiy ae aeno use thy cheee
+
+while na andr id lagavavama ave to aena ander break aave 
+while
+condition 
+pachi break 
+pachi 
+intialization 
+
+continue no use kariye tyare jyaa thi continue star thy ae element skip thai jaay aen aagl thi 
+continue thy chee
+
+range (first number,last number,step )
+pela aek input levo pade pachi aema ander 
+range question ma apyu hoy to range api devani and aema for and if loop no use karvama ave chee

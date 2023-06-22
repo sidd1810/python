@@ -1,0 +1,33 @@
+set:
+
+*thisset = {"apple", "banana", "cherry", "apple"}
+duplicate value ignore karvama ave chee ,pritn ma duplicate aej kvaar print thy cche
+thisset={"apple", "banana", "cherry"}
+
+true and 1 ne same j value ganavama ave chee
+and set na iouput no order hotot mnathi inordered print thy chee 
+
+Once a set is created, you cannot change its items, but you can add new items.
+
+*ADD SET
+
+thisset = {"apple", "banana", "cherry"}
+tropical = {"pineapple", "mango", "papaya"}
+
+thisset.update(tropical)
+
+print(thisset)
+
+UPDATE NO USE KARINE NE BANNE NE ADD KARVAMA AVE CHEE
+THIS LIST MA TROPICAL NE ADD KARVAMA AVE CHEE
+IMP= SET MA A TUPLE,LIST PN APDE ADD KARI SAKIYE UPDATE DWARA 
+
+*union set 
+set3=se1.union(set2)
+
+union means a and b ma bane ma hoy aevu 
+
+*intersection 
+inter section means bane ma je comman hoy ae bija set ma aave 
+set1.intersection_update(set2)
+

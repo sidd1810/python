@@ -1,0 +1,66 @@
+Tuples are unchangeable, meaning that we cannot change, add or remove items after the tuple has been created.
+
+thistuple = ("apple",)
+print(type(thistuple))
+
+item pachi coma lagavavama avee che jethi te python ma tuple tariek use thy 
+
+access:
+thistuple = ("apple", "banana", "cherry")
+print(thistuple[1])
+
+je bi tuple no elemtn joyto hoy tene thistuple[1] ma lakhi  ne print karta apdne element mali jaay
+cehee
+
+*change tuple 
+Convert the tuple into a list to be able to change it
+tuple ae unchangeble chee tethi tene pela list ma convert karvu pade 
+x=("kadasd","kaka","alla")
+y=list(x)
+y[1]="kak"
+X=TUPLE(Y)
+PRINT(X)
+OUTPUT=("KADA","KAK","ALDA")
+
+ Convert into a list: Just like the workaround for changing a tuple, you can convert it into a list, add your item(s), and convert it back into a tuple.
+
+*add tuple to tuple 
+y ne main tuple ma add karbani 
+thistupl=thistuple+y
+print(thistule)
+
+
+*unpacking of tuple
+fruits = ("apple", "banana", "cherry")
+
+(green, yellow, red) = fruits
+
+print(green)
+print(yellow)
+print(red)
+
+tuple mate 3 key assing thayeli chee jo gree=apple
+yellow=banana,red=cherry 
+ its called unpacking 
+
+Using Asterisk*
+
+jo tuple ma value vadhare hoy and key occhui hoy to cheela key ne * vade darshavata te ma pachal ni 
+badhi value *key pr store thai jase 
+fruits = ("apple", "banana", "cherry", "strawberry", "raspberry")
+
+(green, yellow, *red) = fruits
+*red=[cheey,strebey,raspry]
+
+*tropiccc
+(green,*tropic,red)=fruit 
+to vache vali badhi value tropic ma aayi jase and aema store thse 
+tropic=(rasdasd,asfasd,fasfa)
+
+*multiply of the tuple 
+fruits = ("apple", "banana", "cherry")
+mytuple = fruits * 2
+tuple 2 vaar print tthse
+
+count()	Returns the number of times a specified value occurs in a tuple
+index()	Searches the tuple for a specified value and returns the position of where it was found
